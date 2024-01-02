@@ -42,3 +42,11 @@ This project showcases the application of machine learning models for exoplanet 
 
 ## Libraries
 
+To accomplish the project, I used:
+- [<img src="images/Sklearn.png" alt="Sklearn" width="100"/>](https://scikit-learn.org/stable/)
+- [<img src="images/Pandas.png" alt="Pandas" width="100"/> ](https://pandas.pydata.org/)
+- [<img src="images/Matplotlib.png" alt="Matplotlib" width="100"/>](https://matplotlib.org/)
+- [<img src="images/Seaborn.png" alt="Seaborn" width="100"/> ](https://seaborn.pydata.org/)
+- [<img src="images/Numpy.png" alt="Numpy" width="100"/> ](https://numpy.org/)
+
+
