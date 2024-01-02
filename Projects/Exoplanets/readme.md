@@ -1,7 +1,7 @@
 # Exoplanet Classification Project
 
 <p align="center">
-	<img src="./data/Exoplanets.jpg" alt="image01" width="1000">
+	<img src="./images/Exoplanets.jpg" alt="image01" width="1000">
 </p>
 
 ## Overview
@@ -38,4 +38,7 @@ The RandomForest and Logistic Regression models demonstrated superior accuracy i
 ## Conclusion
 
 This project showcases the application of machine learning models for exoplanet classification, providing insights into the performance and predictive capabilities of different algorithms.
+
+
+## Libraries
 
