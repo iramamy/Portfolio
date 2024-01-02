@@ -35,26 +35,6 @@ The models are ranked based on their accuracy scores:
 
 The RandomForest and Logistic Regression models demonstrated superior accuracy in predicting exoplanet candidates.
 
-## Project Structure
-
-The project structure includes the following files:
-
-- `exoplanet_classification.ipynb`: Jupyter Notebook containing both the data analysis and model building.
-
-## Requirements
-
-- Python 3.x
-- Jupyter Notebook
-- Required Python libraries (NumPy, Pandas, Matplotlib, Scikit-Learn)
-
-## Usage
-
-To reproduce the analysis and train the models:
-
-1. Open `exoplanet_classification.ipynb` in Jupyter Notebook and run the cells sequentially.
-
-Feel free to explore and modify the code to suit your specific needs.
-
 ## Conclusion
 
 This project showcases the application of machine learning models for exoplanet classification, providing insights into the performance and predictive capabilities of different algorithms.
