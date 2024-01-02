@@ -51,17 +51,18 @@ To accomplish the project, I used:
 
 ## Tags
 
-- Data Analysis
-- Logistic Regression
-- Decision Tree
-- K-Nearest Neighbors (KNN)
-- Random Forest
-- Classification
-- Data Cleaning
-- ROC Curve
-- Confusion Matrix
-- Scikit-Learn
-- Astronomy
+- `Data Analysis`
+- `Logistic Regression`
+- `Decision Tree`
+- `K-Nearest Neighbors (KNN)`
+- `Random Forest`
+- `Classification`
+- `Data Cleaning`
+- `ROC Curve`
+- `Confusion Matrix`
+- `Scikit-Learn`
+- `Astronomy`
+
 
 
 
