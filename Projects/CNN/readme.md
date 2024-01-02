@@ -1,0 +1,1 @@
+CNN by hand
