@@ -49,4 +49,19 @@ To accomplish the project, I used:
 - [<img src="images/Seaborn.png" alt="Seaborn" width="100"/> ](https://seaborn.pydata.org/)
 - [<img src="images/Numpy.png" alt="Numpy" width="100"/> ](https://numpy.org/)
 
+## Tags
+
+- Data Analysis
+- Logistic Regression
+- Decision Tree
+- K-Nearest Neighbors (KNN)
+- Random Forest
+- Classification
+- Data Cleaning
+- ROC Curve
+- Confusion Matrix
+- Scikit-Learn
+- Astronomy
+
+
 
