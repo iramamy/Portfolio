@@ -1,6 +1,6 @@
 # Should AI replace scientists?
 <p align="center">
-	<img src="./images/should-ai-replace-scientists-image01.png" alt="image01" width="500">
+	<img src="./image/should-ai-replace-scientists-image01.png" alt="image01" width="500">
 </p>
 <p>
 In recent years, we have witnessed the rapid advancement of artificial intelligence, exemplified by innovations like autonomous cars and chatbots implemented for customer service in various online applications. While these technological strides have enhanced efficiency, concerns arise about potential job displacement due to the increasing sophistication of AI algorithms. An intriguing question emerges: should artificial intelligence replace scientists?</p>
