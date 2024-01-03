@@ -3,7 +3,7 @@
 Artificial Intelligence (AI) has become an integral part of our daily lives, permeating various sectors and influencing the way we live, work, and interact. The omnipresence of AI can be attributed to several key factors, namely the rapid increase in technology, access to vast amounts of data, and significant investments in AI research.
 
 <p align="center">
-	<img src="./image/should-ai-replace-scientists-image02.png" alt="image01" width="500">
+	<img src="./image/should-ai-replace-scientists-images02.png" alt="image02" width="500">
 </p>
 
 This essay will explore how the surge in technology, the abundance of data, and sustained investments in AI research have collectively propelled the widespread integration of AI into our modern world.
