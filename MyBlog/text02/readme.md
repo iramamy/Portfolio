@@ -6,7 +6,7 @@ Artificial Intelligence (AI) has become an integral part of our daily lives, per
 	<img src="./image/should-ai-replace-scientists-images02.png" alt="image02" width="500">
 </p>
 
-This essay will explore how the surge in technology, the abundance of data, and sustained investments in AI research have collectively propelled the widespread integration of AI into our modern world.
+We will explore how the surge in technology, the abundance of data, and sustained investments in AI research have collectively propelled the widespread integration of AI into our modern world.
 
 ### Increase in Technology
 
