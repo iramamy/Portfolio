@@ -37,3 +37,16 @@ To accomplish the project, I used:
 - [<img src="images/Opencv.png" alt="Opencv" width="100"/> ](https://opencv.org/)
 - [<img src="images/Matplotlib.png" alt="Matplotlib" width="100"/>](https://matplotlib.org/)
 - [<img src="images/Numpy.png" alt="Numpy" width="100"/> ](https://numpy.org/)
+
+## Tags
+- Computer Vision
+- PyTorch
+- Neural Network
+- Image Classification
+- Deep Learning
+- Image Processing
+- Data Preprocessing
+- Model Training
+- Covid19
+- Matplotlib
+- Numpy

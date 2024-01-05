@@ -54,6 +54,7 @@ To accomplish the project, I used:
 - [<img src="images/Numpy.png" alt="Numpy" width="100"/> ](https://numpy.org/)
 
 ## Tags
+- Computer Vision
 - PyTorch
 - OpenCV
 - MNIST
@@ -61,7 +62,6 @@ To accomplish the project, I used:
 - Image Classification
 - Handwritten Digit Recognition
 - Multi-Digit Classification
-- Computer Vision
 - Deep Learning
 - Image Processing
 - Data Preprocessing
