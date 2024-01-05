@@ -3,7 +3,7 @@
 This project employs `PyTorch` to construct and train a neural network for face mask detection, leveraging a dataset containing images labeled with 'WithMask' and 'WithoutMask' classes.
 You can find the dataset [here](https://www.kaggle.com/datasets/ashishjangra27/face-mask-12k-images-dataset).
 <p align="center">
-	<img src="./image/crowd-of-people-wearingface-mask.png" alt="" width="500">
+	<img src="./images/crowd-of-people-wearingface-mask.png" alt="" width="500">
 </p>
 
 ## Introduction
@@ -28,3 +28,12 @@ The trained model achieves impressive accuracy and generalization on the test se
 
 ## Feedback
 Feel free to provide any feedback, suggestions, or improvements. Contributions are welcome!
+
+## Libraries
+
+To accomplish the project, I used:
+
+- [<img src="images/PyTorch.png" alt="PyTorch" width="100" /> ](https://pytorch.org/)
+- [<img src="images/Opencv.png" alt="Opencv" width="100"/> ](https://opencv.org/)
+- [<img src="images/Matplotlib.png" alt="Matplotlib" width="100"/>](https://matplotlib.org/)
+- [<img src="images/Numpy.png" alt="Numpy" width="100"/> ](https://numpy.org/)
