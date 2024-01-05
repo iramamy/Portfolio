@@ -43,6 +43,7 @@ To accomplish the project, I used:
 - PyTorch
 - Neural Network
 - Image Classification
+- Binary classification
 - Deep Learning
 - Image Processing
 - Data Preprocessing
