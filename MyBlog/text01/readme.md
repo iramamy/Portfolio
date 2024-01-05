@@ -20,6 +20,6 @@ In recent years, we have witnessed the rapid advancement of artificial intellige
 
 
 Reference:
-https://advalvas.vu.nl/en/science-education/will-computers-replace-scientists/
+https://shorturl.at/adlyU
 
 
