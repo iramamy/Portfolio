@@ -45,14 +45,6 @@ class CelestialObject:
         self.position += self.velocity * time
         return self.position
 
-################################
-# Initial conditions for Earth #
-################################
-
-M_EARTH = 5.972e24 # mass
-initial_position_earth = [AU, 0.0]
-initial_velocity_earth = [0.0, 29800.0]
-
 ##################################
 # Initial conditions for Mercury #
 ##################################
@@ -65,6 +57,19 @@ initial_velocity_mercury = [0.0, 47400.0]
 M_VENUS = 4.87e24 # mass
 initial_position_venus = [0.723 * AU, 0.0]
 initial_velocity_venus = [0.0, 35000.0]
+
+################################
+# Initial conditions for Earth #
+################################
+
+M_EARTH = 5.972e24 # mass
+initial_position_earth = [AU, 0.0]
+initial_velocity_earth = [0.0, 29800.0]
+
+# Initial conditions for Mars
+M_MARS = 0.642e24 # mass
+initial_position_mars = [1.52* AU, 0.0]
+initial_velocity_mars = [0.0, 24100.0]
 
 ############################
 # Create celestial objects #
@@ -80,7 +85,15 @@ venus = CelestialObject(
     initial_position_venus,
     initial_velocity_venus, 'white', 'Venus'
 )
-earth = CelestialObject(M_EARTH, initial_position_earth, initial_velocity_earth, 'blue', 'Earth')
+earth = CelestialObject(
+    M_EARTH,
+    initial_position_earth,
+    initial_velocity_earth, 'blue', 'Earth')
+mars = CelestialObject(
+    M_MARS,
+    initial_position_mars,
+    initial_velocity_mars, 'brown', 'Mars'
+)
 
 ##############
 # Simulation #
@@ -88,15 +101,18 @@ earth = CelestialObject(M_EARTH, initial_position_earth, initial_velocity_earth,
 mercury_positions = np.zeros((N_STEPS, 2))
 venus_positions = np.zeros((N_STEPS, 2))
 earth_positions = np.zeros((N_STEPS, 2))
+mars_positions = np.zeros((N_STEPS, 2))
 
 mercury_positions[0] = initial_position_mercury
 venus_positions[0] = initial_position_venus
 earth_positions[0] = initial_position_earth
+mars_positions[0] = initial_position_mars
 
 for step in range(1, N_STEPS):
     mercury_positions[step] = mercury.update_position_velocity(DAY_TIME)
-    earth_positions[step] = earth.update_position_velocity(DAY_TIME)
     venus_positions[step] = venus.update_position_velocity(DAY_TIME)
+    earth_positions[step] = earth.update_position_velocity(DAY_TIME)
+    mars_positions[step] = mars.update_position_velocity(DAY_TIME)
 
 #############
 # Animation #
@@ -133,6 +149,17 @@ text_earth = ax.text(
     fontsize=8,
     color=earth.color)
 
+# Mars
+mars_dot, = ax.plot([], [], 'o', color=mars.color)
+orbit_mars, = ax.plot([], [], '-', color='white', lw=0.5)
+text_mars = ax.text(
+    mars.position[0],
+    mars.position[1],
+    mars.name,
+    fontsize = 8,
+    color=mars.color
+)
+
 # The sun
 sun_dot, = ax.plot(sun.position[0], sun.position[1], 'ro', markersize=10)
 
@@ -145,10 +172,6 @@ def update(frame):
     """
         Animation
     """
-    x_earth, y_earth = earth_positions[frame]
-    earth_dot.set_data(x_earth, y_earth)
-    text_earth.set_position((x_earth, y_earth))
-    orbit_earth.set_data(earth_positions[:frame, 0], earth_positions[:frame, 1])
 
     x_mercury, y_mercury = mercury_positions[frame]
     mercury_dot.set_data(x_mercury, y_mercury)
@@ -160,9 +183,19 @@ def update(frame):
     text_venus.set_position((x_venus, y_venus))
     orbit_venus.set_data(venus_positions[:frame, 0], venus_positions[:frame, 1])
 
-    return (earth_dot, mercury_dot, sun_dot, venus_dot,
-            text_earth, text_mercury, text_venus,
-            orbit_earth, orbit_mercury, orbit_venus
+    x_earth, y_earth = earth_positions[frame]
+    earth_dot.set_data(x_earth, y_earth)
+    text_earth.set_position((x_earth, y_earth))
+    orbit_earth.set_data(earth_positions[:frame, 0], earth_positions[:frame, 1])
+
+    x_mars, y_mars = mars_positions[frame]
+    mars_dot.set_data(x_mars, y_mars)
+    text_mars.set_position((x_mars, y_mars))
+    orbit_mars.set_data(mars_positions[:frame, 0], mars_positions[:frame, 1])
+
+    return (sun_dot, mercury_dot, venus_dot, earth_dot, mars_dot,
+            text_mercury, text_venus, text_earth,  text_mars,
+            orbit_earth, orbit_mercury, orbit_venus, orbit_mars
             )
 
 animation = FuncAnimation(fig, update, frames=N_STEPS, blit=True, interval=10)
