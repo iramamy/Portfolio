@@ -14,7 +14,7 @@ G = 6.67430e-11
 M_SUN = 1.989e30
 AU = 1.496e11
 DAY_TIME = 60 * 60 * 24
-TOTAL_TIME = 365 * 24 * 60 * 60 * 2
+TOTAL_TIME = 365 * 24 * 60 * 60 * 4
 N_STEPS = int(TOTAL_TIME / DAY_TIME)
 
 # Initial conditions for Mercury
@@ -138,8 +138,9 @@ def main():
     mars_dot, mars_orbit, mars_text = mars.plot_object()
     mars_positions = mars.simulate_motion()
 
+
     # Simulation
-    _, = ax.plot(sun.position[0], sun.position[1], 'ro', markersize=10)
+    _, = ax.plot(sun.position[0], sun.position[1], 'ro', markersize=5)
 
     def update(frame):
         # Animate mercury
@@ -168,7 +169,6 @@ def main():
             earth_dot, earth_text, earth_orbit,
             mars_dot, mars_text, mars_orbit
             )
-
     #
     anim = FuncAnimation(fig, update, frames=N_STEPS, interval=10)
 
