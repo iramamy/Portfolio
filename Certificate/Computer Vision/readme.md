@@ -1,4 +1,4 @@
-# Introduction to Computer Vision and Image Processing Certificate
+# Introduction to Computer Vision and Image Processing
 
 ## Overview
 
