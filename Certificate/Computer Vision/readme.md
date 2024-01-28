@@ -5,7 +5,7 @@
 I am thrilled to showcase my achievement in completing the "Introduction to Computer Vision and Image Processing" course on [Coursera](https://www.coursera.org/learn/introduction-computer-vision-watson-opencv). This comprehensive program explores the dynamic field of image processing and its integral role in Computer Vision. The course covers a range of topics, from fundamental principles to practical applications using various tools and techniques.
 
 <p align="center">
-	<img src="./images/Certificate.png" alt="" width="1500">
+	<img src="./image/Certificate.png" alt="" width="1500">
 </p>
 
 ## Course Modules
