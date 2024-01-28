@@ -36,6 +36,6 @@ The culmination of the course involved a hands-on project where I applied my new
 
 ## Certificate
 
-This certificate represents not only the successful completion of each module but also a deepened understanding of computer vision and image processing—an essential skill set in today's technology-driven landscape. I am excited to apply these skills to future projects and contribute to the evolving field of visual computing.
+This [certificate](https://github.com/ramaminiaina/Portfolio/blob/main/Certificate/Computer%20Vision/Certificate.pdf) represents not only the successful completion of each module but also a deepened understanding of computer vision and image processing—an essential skill set in today's technology-driven landscape. I am excited to apply these skills to future projects and contribute to the evolving field of visual computing.
 
 
