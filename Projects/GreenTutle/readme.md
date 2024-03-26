@@ -34,7 +34,9 @@ The acceleration data used in this project was provided by our lecturer, Lorène
 * Experiment with different hyperparameter configurations for the 1D VNet model.
 * Integrate the model into a larger ecological analysis pipeline.
 
-**Note:** This is a basic implementation for educational purposes. It might require further customization for real-world applications.
-
 **Feel free to reach out with any questions!**
+
+## Reference:
+
+* Please refere to the original VNet model [here](https://arxiv.org/abs/1606.04797)
 
