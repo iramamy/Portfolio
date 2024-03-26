@@ -21,12 +21,11 @@ The acceleration data used in this project was provided by our lecturer, Lorène
 
 **Evaluation:**
 
-1. Evaluate the model's performance on a separate test dataset.
+1. The dataset was split into three parts: training, validation, and test. The model's performance was evaluated on the separate test dataset.
 
+2. During model training, the loss and accuracy of the model on the training data were tracked. Below is the plot showing the learning curve of the model during training:
 
-2. During model training, the loss and accuracy of the model on the training data were tracked. Below is a subplot illustrating the changes in training loss and accuracy over epochs.
-
-![Training Progress](Image/history.svg)
+   ![Training Progress](Image/history.svg)
 
 
 ## Future Work
