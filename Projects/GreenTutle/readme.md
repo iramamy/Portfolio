@@ -26,13 +26,7 @@ The acceleration data used in this project was provided by our lecturer, Lorène
 
 1. The dataset was split into three parts: training, validation, and test. The model's performance was evaluated on the separate test dataset.
 
-2. During model training, the loss and accuracy of the model on the training data were tracked. Below is the plot showing the learning curve of the model during training:
-
-   ![Training Progress](Image/history.svg)
-
-3. Confusion matrix of the model.
-
-    ![confusion matrix](Image/confusion_matrix.svg)
+2. During model training, the loss and accuracy of the model on the training data were tracked. Refere to the attached code for more.
 
 
 ## Future Work
