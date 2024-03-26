@@ -23,6 +23,12 @@ The acceleration data used in this project was provided by our lecturer, Lorène
 
 1. Evaluate the model's performance on a separate test dataset.
 
+
+2. During model training, the loss and accuracy of the model on the training data were tracked. Below is a subplot illustrating the changes in training loss and accuracy over epochs.
+
+![Training Progress](Image/history.svg)
+
+
 ## Future Work
 
 * Explore techniques for data preprocessing and augmentation.
