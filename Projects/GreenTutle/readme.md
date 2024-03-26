@@ -27,6 +27,10 @@ The acceleration data used in this project was provided by our lecturer, Lorène
 
    ![Training Progress](Image/history.svg)
 
+3. Confusion matrix of the model.
+
+    ![confusion matrix](Image/confusion_matrix.svg)
+
 
 ## Future Work
 
@@ -38,5 +42,5 @@ The acceleration data used in this project was provided by our lecturer, Lorène
 
 ## Reference:
 
-* Please refere to the original VNet model [here](https://arxiv.org/abs/1606.04797)
+* Please refere to the original VNet model [here](https://arxiv.org/abs/1606.04797).
 
