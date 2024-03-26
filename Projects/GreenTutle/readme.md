@@ -28,9 +28,9 @@ The acceleration data used in this project was provided by our lecturer, Lorène
    ![Training Progress](Image/history.svg)
 
 3. Confusion matrix of the model.
-
-    <img src="Image/confusion_matrix.svg" alt="confusion matrix" width="400" height="400">
-
+     <div style="text-align:center;">
+        <img src="Image/confusion_matrix.svg" alt="confusion matrix" width="400" height="400">
+     </div>
 
 ## Future Work
 
