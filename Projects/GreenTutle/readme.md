@@ -12,7 +12,10 @@ This project implements a 1D VNet architecture in Keras to classify the behavior
 
 **Prerequisites:**
 
-* Ensure you have Python (3.x recommended), TensorFlow, and Keras installed.
+* Python 3.x
+* TensorFlow
+* Keras
+
 
 **Data Source:**
 
@@ -43,4 +46,12 @@ The acceleration data used in this project was provided by our lecturer, Lorène
 ## Reference:
 
 * Please refere to the original VNet model [here](https://arxiv.org/abs/1606.04797).
+
+## Tags:
+
+* Ecology
+* Green Turtle
+* VNet
+* Convolutional Neural Network
+* Numpy 
 
