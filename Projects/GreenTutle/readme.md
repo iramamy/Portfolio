@@ -14,16 +14,16 @@ This project implements a 1D VNet architecture in Keras to classify the behavior
 
 * Ensure you have Python (3.x recommended), TensorFlow, and Keras installed.
 
-**Download:**
+**Data Source:**
 
-1. Clone or download this repository.
+The acceleration data used in this project was provided by our lecturer, Lorène Jeantet. If you wish to reproduce the experiments or explore the data further, please reach out to her for access.
 
 
 **Evaluation:**
 
 1. Evaluate the model's performance on a separate test dataset.
 
-## Future Work (Optional)
+## Future Work
 
 * Explore techniques for data preprocessing and augmentation.
 * Experiment with different hyperparameter configurations for the 1D VNet model.
