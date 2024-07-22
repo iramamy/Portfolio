@@ -63,6 +63,3 @@ To accomplish the project, I used:
 - `Scikit-Learn`
 - `Astronomy`
 
-
-`I'm still in the process of learning, so if you have any comments, suggestions, or questions about my code, please feel free to share your insights. I'm eager to improve and welcome any feedback you might have.`
-
